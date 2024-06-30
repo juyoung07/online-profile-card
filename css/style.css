@@ -14,6 +14,7 @@ a {
     text-decoration: none;
 }
 
+/* 배경 */
 body {
     background-color: #ebfaff;
 }
@@ -24,4 +25,24 @@ section {
     margin: 50px auto;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+
+/* 상단 메뉴 */
+section nav.menu {
+    width: 100%;
+}
+section nav.menu::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+section nav.menu a {
+    font-size: 20px;
+    color: #666;
+}
+section nav.menu a:nth-of-type(1) {
+    float: left;
+}
+section nav.menu a:nth-of-type(2) {
+    float: right;
 }
