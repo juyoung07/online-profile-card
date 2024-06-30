@@ -91,3 +91,30 @@ section a.btnView {
     background: linear-gradient(45deg, #4affff, #35e0f7);
     box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
 }
+
+/* 연락처 목록 */
+section ul.contact {
+    margin-bottom: 25px;
+}
+section ul.contact li {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+section ul.contact li:last-child {
+    border-bottom: none;
+}
+section ul.contact li i {
+    width: 20%;
+    text-align: center;
+    color: #555;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #ddd;
+}
+section ul.contact li span {
+    font-weight: normal;
+    font-size: 11px;
+    font-family: "orbitron";
+    color: #555;
+    letter-spacing: 1px;
+}
