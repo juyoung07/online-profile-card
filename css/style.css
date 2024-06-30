@@ -56,7 +56,7 @@ section article.profile img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border-bottom: 20px;
+    margin-bottom: 20px;
     box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
 }
 
