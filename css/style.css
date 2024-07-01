@@ -134,6 +134,12 @@ section nav.others a {
     height: 30px;
     border-radius: 50%;
     margin: 0px 10px;
+    opacity: 0.4;
+    filter: saturate(0.7);
+}
+section nav.others a.on {
+    opacity: 1;
+    filter: saturate(1);
 }
 section nav.others a:nth-of-type(1) {
     background-color: #35e0f7;
